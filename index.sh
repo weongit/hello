@@ -1,5 +1,5 @@
 echo Hello World
-echo pause
+pause
 
 function Goodbye() {
     if [ "${num}" == 1 ]; then
