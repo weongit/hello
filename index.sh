@@ -1,14 +1,7 @@
 echo Hello World
-pause
 
-function Goodbye() {
-    if [ "${num}" == 1 ]; then
-        ADN=TW
-	elif [ "${num}" == 4 ]; then
-		ADN=US
-    else
-        ADN=$(echo $(($RANDOM % 2 + 1)))
-    fi
+
+{
 
     if [[ "$language" == "e" ]]; then
         echo -e "${Font_Green}Testing Done! Thanks for Using This Script! ${Font_Suffix}"
